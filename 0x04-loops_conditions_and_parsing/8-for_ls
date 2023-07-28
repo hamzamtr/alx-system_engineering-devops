@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Displays the content of the current directory
-for file in *
+# displays the content of the current working directory.
+
+for i in *
 do
-	echo "$file" | cut -d "-" -f 2
+    echo "$i" | cut -d'-' -f2
 done
